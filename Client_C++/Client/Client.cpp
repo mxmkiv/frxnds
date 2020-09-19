@@ -2,6 +2,16 @@
 
 using namespace std;
 
+SOCKET Connection;
+
+void ClientHandler() {
+	char msg[256];
+	while (true) {
+		recv(Connection, msg, sizeof(msg), NULL);
+		std::cout << msg << std::endl;
+	}
+}
+
 int main(int argc, char* argv[]) {
 
 	//WASStartup
@@ -36,6 +46,15 @@ int main(int argc, char* argv[]) {
 	}
 	else {
 		cout << "Message delivery error" << endl;
+
+		CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)ClientHandler, NULL, NULL, NULL);
+
+		char msgl[256];
+		while (true) {
+			std::cin.getline(msgl, sizeof(msgl));
+			send(Connection, msgl, sizeof(msgl), NULL);
+			Sleep(10);
+		}
 	}
 
 	system("pause");

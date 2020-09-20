@@ -1,9 +1,9 @@
 ﻿  Server_C++ ver.2.cpp
-c:\users\msi\desktop\git\frxnds\server_c++_ver_2\server_c++_ver_2\server_c++ ver.2\server_c++ ver.2.cpp(8): warning C4101: msg: неиспользованная локальная переменная
-c:\users\msi\desktop\git\frxnds\server_c++_ver_2\server_c++_ver_2\server_c++ ver.2\server_c++ ver.2.cpp(57): warning C4312: приведение типов: преобразование из "int" в "LPVOID" большего размера
+c:\buckup_files\github\frxnds\server_c++_ver_2\server_c++_ver_2\server_c++ ver.2\server_c++ ver.2.cpp(8): warning C4101: msg: неиспользованная локальная переменная
+c:\buckup_files\github\frxnds\server_c++_ver_2\server_c++_ver_2\server_c++ ver.2\server_c++ ver.2.cpp(57): warning C4312: приведение типов: преобразование из "int" в "LPVOID" большего размера
   Создание кода
-  Создание кода завершено
-  2 of 12 functions (16.7%) were compiled, the rest were copied from previous compilation.
+  11 of 12 functions (91.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
-  Server_C++ ver.2.vcxproj -> C:\Users\MSI\Desktop\Git\frxnds\Server_C++_ver_2\Server_C++_ver_2\x64\Release\Server_C++ ver.2.exe
+  Создание кода завершено
+  Server_C++ ver.2.vcxproj -> C:\buckup_files\github\frxnds\Server_C++_ver_2\Server_C++_ver_2\x64\Release\Server_C++ ver.2.exe

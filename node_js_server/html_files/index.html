@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Frxnds</title>
-    <script src="key_gen.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <!--<style>
-    .txt {
-      color: red;
-    }
-  </style>-->
-  </head>
-  <body>
-    <!--<script>
-      alert("js working")
-    </script>-->
-    <p class="txt">Hello</p>
-  </body>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>frx</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="script.js"></script>
+  <script src="../index.js"></script>
+</head>
+<body>
+    <p class="text">Hello</p>
+    <p class="text"> Ваш E-mail: 
+      <input id="email" type='email' class="inp"></input>
+    </p>
+    <p class="text"> Имя пользователя: 
+      <input id="login" class="inp"></input>
+    </p>
+    <p class="text"> Пароль: 
+      <input id="psswd" type="password" class="inp"></input>
+    </p>
+    <button onclick="getInf()" type="submit" id="btn">Регистрация</button>
+    <button onclick="serverInfo()" type="button" id="btn">БД инфо</button>
+</body>
 </html>

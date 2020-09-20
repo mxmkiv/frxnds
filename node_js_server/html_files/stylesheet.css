@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Myriad Pro;
+    src: url(8143.otf)
+}
+.text {
+    color: royalblue;
+    font-family: Myriad Pro;
+}
+
+.inpText {
+    color:#0ac5b2;
+}
+
+#btn {
+  height: 60px;
+  width: 190px;
+  font-weight: 800;
+  font-family: Myriad Pro;
+  color: white;
+  background: linear-gradient(135deg , #2870dc, #0ac5b2);
+  border: 0;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+} 
+#btn:hover { 
+    background: rgb(53, 167, 110);
+    background: linear-gradient(135deg ,#0ac5b2,  #2870dc);
+}
